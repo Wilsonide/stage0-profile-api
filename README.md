@@ -45,7 +45,7 @@ It demonstrates:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/stage0-profile-api.git
+git clone https://github.com/Wilsonide/stage0-profile-api.git
 cd stage0-profile-api
 ```
 

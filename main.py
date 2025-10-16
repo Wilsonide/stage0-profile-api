@@ -1,7 +1,6 @@
 from datetime import UTC, datetime
 
 import requests
-import uvicorn
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
@@ -43,7 +42,3 @@ def get_profile():
     }
 
     return JSONResponse(content=payload, media_type="application/json")
-
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="localhost", port=8000)
